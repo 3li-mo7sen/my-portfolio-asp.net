@@ -13,6 +13,12 @@ namespace Infrastructure.Data
         {
         }
 
-        public DbSet<PortfolioItem> PortfolioItems { get; set; }
+        public DbSet<UserProfile> UserProfile { get; set; }
+        public DbSet<WorkExperience> WorkExperiences { get; set; }
+        public DbSet<SocialLink> SocialLinks { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<Education> Educations { get; set; }
+
     }
 }
